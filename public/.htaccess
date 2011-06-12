@@ -1,0 +1,29 @@
+# DEFLATE compresses files
+<IfModule mod_deflate.c>
+	<FilesMatch "\.(js|css)$">
+		SetOutputFilter DEFLATE
+	</FilesMatch>
+</IfModule>
+
+# Set 404 page
+ErrorDocument 404 /404.html
+
+# Force PDF/ZIP download
+<FilesMatch "\.(?i:pdf|zip)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
+
+# Enable Multiviews by default. Use mod rewrite
+# rules if you prefer.
+Options +MultiViews
+
+<IfModule mod_rewrite.c>
+	RewriteEngine Off
+
+	# handle existing file /some/path.html as /some/path
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_URI} !-d
+	RewriteCond %{REQUEST_FILENAME}.html -f
+	RewriteRule (.*) /$1.html
+</IfModule>

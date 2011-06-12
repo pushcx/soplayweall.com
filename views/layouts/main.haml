@@ -1,0 +1,17 @@
+!!! 1.1
+
+%html
+  %head
+    %title= title
+    %meta{:name => "description", :content => description}
+    %meta{:name => "keywords", :content => keywords}
+    %meta{:name => "generator", :content => "Glue #{generator}"}
+    %meta{:'http-equiv' => "content-type", :content => "text/html; charset=UTF-8"}
+    %meta{:'http-equiv' => "last-update", :content => last_update}
+    %link{:rel => "shortcut icon", :href => "/favicon.ico", :type => "image/x-icon"}
+    = css_tag(:style)
+    = feed_tag
+
+  %body{:id => id}
+    #page
+      = content_for_layout

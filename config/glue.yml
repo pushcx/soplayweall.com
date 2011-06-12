@@ -1,0 +1,53 @@
+site:
+  # Set default page title.
+  title: "Glue is awesome!"
+
+  # Set default page description
+  description: "This awesome page has been generated using Glue <http://github.com/fnando/glue>!"
+
+  # Set default keywords
+  keywords: "glue, ruby, haml, sass"
+
+  # Set your base url.
+  # Include domain and path (if needed).
+  # Domain is required for sitemap generation.
+  base_url: http://example.com/some/path
+
+  # Set your default layout file.
+  layout: main
+
+  # If you're using Apache you can enable `MultiViews`
+  # or mod_rewrite and access your URL like
+  # http://example.com/about instead of http://example.com/about.html
+  friendly_url: true
+
+  # Set your language for feeds and meta tags
+  language: en-us
+
+sitemap:
+  # Do generate sitemap
+  enabled: true
+
+  # Filters will be applied against full filename.
+  # Use .*? to match all. Use regular expressions.
+  filters:
+    - .*?
+
+feed:
+  # Do generate feed
+  enabled: true
+
+  # Filters will be applied against full filename.
+  # Use .*? to match all. Use regular expressions.
+  filters:
+    - .*?
+
+# Group stylesheets and javascript files into a single
+# bundle.
+bundles:
+  javascripts:
+    base:
+      - base.js
+  stylesheets:
+    base:
+      - base.css
