@@ -1,17 +1,17 @@
 site:
   # Set default page title.
-  title: "Glue is awesome!"
+  title: "So Play We All"
 
   # Set default page description
-  description: "This awesome page has been generated using Glue <http://github.com/fnando/glue>!"
+  description: "An online contest to develop browser games in a few hours per week."
 
   # Set default keywords
-  keywords: "glue, ruby, haml, sass"
+  keywords: "browser games, web games, contest"
 
   # Set your base url.
   # Include domain and path (if needed).
   # Domain is required for sitemap generation.
-  base_url: http://example.com/some/path
+  base_url: http://www.soplayweall.com/
 
   # Set your default layout file.
   layout: main
