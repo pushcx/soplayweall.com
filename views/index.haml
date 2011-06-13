@@ -1,6 +1,7 @@
 / title: So Play We All
 / id: index
 
+%link{ :rel => 'stylesheet', :href => 'stylesheets/style.css' }
 %h1 So Play We All
 
 #introduction
@@ -56,55 +57,79 @@
         turns their game into a full-time job wins all the bragging rights.
     1.  Rules can change by unanimous acclaim.
 
-%p
-  So say we all. So play we all.
+  %p
+    So say we all. So play we all.
 
-#contestants
-  %a{ :name => 'contestants' }
-  %h2 Contestants
+#competitors
+  %a{ :name => 'competitors' }
+  %h2 Competitors
 
-  :markdown
-    ### Jim C. Gadrow: [Allabrilyn](http://www.allabrilyn.com)
-    ### Luke Hutscal: [Fantasy Adventure](http://www.fantasyadventuregame.com)
-    ### Peter Harkins: [Oaqn](http://www.oaqn.com)
+  %table.competitors
+    %thead
+      %tr
+        %th Game
+        %th
+        %th Author
+        %th.balance Balance
+    %tbody
+      %tr
+        %td <a href="http://allabrilyn.com">Allabrilyn</a>
+        %td (<a href="http://blog.allabrilyn.com">blog</a>)
+        %td <a href="http://www.jgadrow.com">Jim C. Gadrow</a>
+        %td.balance
+      %tr
+        %td <a href="http://www.fantasyadventuregame.com">Fantasy Adventure</a>
+        %td (<a href="http://blog.fantasyadventuregame.com">blog</a>)
+        %td <a href="http://www.creaturecreative.com">Luke Hutscal</a>
+        %td.balance $2.01
+      %tr
+        %td <a href="http://www.oaqn.com">Oaqn</a>
+        %td (<a href="http://blog.oaqn.com">blog</a>)
+        %td <a href="http://push.cx">Peter Harkins</a>
+        %td.balance -$22.16
 
 #progress
   %a{ :name => 'progress' }
   %h2 Progress
 
-
-%table
-  %thead
-    %tr
-      %th Week
-      %th Topic
-      %th Hours
-      %th Update
-      %th Votes
-      %th Response
-  %thead
-  %tbody
-  - YAML::load_file('data.yaml').each do |week|
-    - winner = week[:votes].sort { |a, b| a[1] <=> b[1] }.last.first
-    %tr{ :class => 'week' }
-      %td{ :rowspan => 3 }= week[:week]
-      %td{ :rowspan => 3 }
-        %a{ :href => week[:poll_url] }= week[:topic]
-      %td{ :rowspan => 3 }= week[:hours]
-      %td
-        %a{ :href => week[:allabrilyn][:update_url] }= week[:allabrilyn][:update]
-      %td{ :class => winner == :allabrilyn ? 'winner' : '' }= week[:votes][:allabrilyn]
-      %td
-        %a{:href => week[:allabrilyn][:response_url] }= week[:allabrilyn][:response]
-    %tr
-      %td
-        %a{ :href => week[:fantasyadventure][:update_url] }= week[:fantasyadventure][:update]
-      %td{ :class => winner == :fantasyadventure ? 'winner' : '' }= week[:votes][:fantasyadventure]
-      %td
-        %a{ :href => week[:fantasyadventure][:response_url] }= week[:fantasyadventure][:response]
-    %tr
-      %td
-        %a{ :href => week[:oaqn][:update_url] }= week[:oaqn][:update]
-      %td{ :class => winner == :oaqn ? 'winner' : '' }= week[:votes][:oaqn]
-      %td
-        %a{ :href => week[:oaqn][:response_url] }= week[:oaqn][:response]
+  %table.progress
+    %thead
+      %tr
+        %th.week Week
+        %th Topic
+        %th.hours Hours
+        %th.label
+        %th.update Update
+        %th.votes Votes
+        %th.response Response
+    %thead
+    %tbody
+    - YAML::load_file('data.yaml').each do |week|
+      - winner = week[:votes].sort { |a, b| a[1] <=> b[1] }.last.first
+      %tr.weekdivider
+        %td{ :colspan => 7 }
+      %tr.week
+        %td.week{ :rowspan => 3 }= week[:week]
+        %td{ :rowspan => 3 }
+          %a{ :href => week[:poll_url] }= week[:topic]
+        %td.hours{ :rowspan => 3 }= week[:hours]
+        %td.label Ab
+        %td.update
+          %a{ :href => week[:allabrilyn][:update_url] }= week[:allabrilyn][:update]
+        %td.votes{ :class => winner == :allabrilyn ? 'winner' : '' }= week[:votes][:allabrilyn]
+        %td.response
+          %a{:href => week[:allabrilyn][:response_url] }= week[:allabrilyn][:response]
+      %tr
+        %td.label FA
+        %td.update
+          %a{ :href => week[:fantasyadventure][:update_url] }= week[:fantasyadventure][:update]
+        %td.votes{ :class => winner == :fantasyadventure ? 'winner' : '' }= week[:votes][:fantasyadventure]
+        %td.response
+          %a{ :href => week[:fantasyadventure][:response_url] }= week[:fantasyadventure][:response]
+      %tr
+        %td.label O
+        %td.update
+          %a{ :href => week[:oaqn][:update_url] }= week[:oaqn][:update]
+        %td.votes{ :class => winner == :oaqn ? 'winner' : '' }= week[:votes][:oaqn]
+        %td.response
+          %a{ :href => week[:oaqn][:response_url] }= week[:oaqn][:response]
