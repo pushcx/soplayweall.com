@@ -8,15 +8,20 @@
   %a{ :name => 'introduction' }
   %h2 Introduction
 
-  %p
-    :markdown
-      [Peter Harkins](http://push.cx), [Jim C. Gadrow](http://www.jgadrow.com),
-      and [Luke Hutscal](http://girasquid.com) are each building an
-      online game as part of a contest between us. Every week we'll pick a new
-      area of our games to code on and budget how many hours to spend on it.
-      Every week, someone will be judged to have done the best. Anyone who
-      doesn't put in the time pays the price by funding the others' games.
-      Anyone who quits has to delete their entire codebase and all backups.
+  :markdown
+    [Peter Harkins](http://push.cx), [Jim C. Gadrow](http://www.jgadrow.com),
+    and [Luke Hutscal](http://girasquid.com) are each building an
+    online game as part of a contest between us. Every week we'll pick a new
+    area of our games to code on and budget how many hours to spend on it.
+    Every week, someone will be judged to have done the best. Anyone who
+    doesn't put in the time pays the price by funding the others' games.
+    Anyone who quits has to delete their entire codebase and all backups.
+
+    The contest is not open to join, but we encourage anyone who likes the idea
+    to take a copy of rules, find some friends, and build games. And please,
+    tell us about it so we can link to you here.
+
+  = render 'rss-ad'
 
 #rules
   %a{ :name => 'rules' }
@@ -76,17 +81,17 @@
         %td <a href="http://allabrilyn.com">Allabrilyn</a>
         %td (<a href="http://blog.allabrilyn.com">blog</a>)
         %td <a href="http://www.jgadrow.com">Jim C. Gadrow</a>
-        %td.balance
+        %td.balance $19.75
       %tr
         %td <a href="http://www.fantasyadventuregame.com">Fantasy Adventure</a>
         %td (<a href="http://blog.fantasyadventuregame.com">blog</a>)
         %td <a href="http://girasquid.com">Luke Hutscal</a>
-        %td.balance $2.01
+        %td.balance -$22.16
       %tr
         %td <a href="http://www.oaqn.com">Oaqn</a>
         %td (<a href="http://blog.oaqn.com">blog</a>)
         %td <a href="http://push.cx">Peter Harkins</a>
-        %td.balance -$22.16
+        %td.balance $2.01
 
 #progress
   %a{ :name => 'progress' }
@@ -123,3 +128,5 @@
           %td.votes{ :class => winner == game ? 'winner' : '' }= week[:votes][game]
           %td.response
             %a{:href => week[game][:response_url] }= week[game][:response]
+
+= render 'rss-ad'
