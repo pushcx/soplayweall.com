@@ -104,32 +104,21 @@
         %th.response Response
     %thead
     %tbody
+    - abbreviations = { :allabrilyn => 'Ab', :fantasyadventure => 'FA', :oaqn => 'o' }
     - YAML::load_file('data.yaml').each do |week|
       - winner = week[:votes].sort { |a, b| a[1] <=> b[1] }.last.first
       %tr.weekdivider
         %td{ :colspan => 7 }
       %tr.week
-        %td.week{ :rowspan => 3 }= week[:week]
-        %td{ :rowspan => 3 }
+        %td.week{ :rowspan => 4 }= week[:week]
+        %td{ :rowspan => 4 }
           %a{ :href => week[:poll_url] }= week[:topic]
-        %td.hours{ :rowspan => 3 }= week[:hours]
-        %td.label Ab
-        %td.update
-          %a{ :href => week[:allabrilyn][:update_url] }= week[:allabrilyn][:update]
-        %td.votes{ :class => winner == :allabrilyn ? 'winner' : '' }= week[:votes][:allabrilyn]
-        %td.response
-          %a{:href => week[:allabrilyn][:response_url] }= week[:allabrilyn][:response]
-      %tr
-        %td.label FA
-        %td.update
-          %a{ :href => week[:fantasyadventure][:update_url] }= week[:fantasyadventure][:update]
-        %td.votes{ :class => winner == :fantasyadventure ? 'winner' : '' }= week[:votes][:fantasyadventure]
-        %td.response
-          %a{ :href => week[:fantasyadventure][:response_url] }= week[:fantasyadventure][:response]
-      %tr
-        %td.label O
-        %td.update
-          %a{ :href => week[:oaqn][:update_url] }= week[:oaqn][:update]
-        %td.votes{ :class => winner == :oaqn ? 'winner' : '' }= week[:votes][:oaqn]
-        %td.response
-          %a{ :href => week[:oaqn][:response_url] }= week[:oaqn][:response]
+        %td.hours{ :rowspan => 4 }= week[:hours]
+      - [:allabrilyn, :fantasyadventure, :oaqn].each do |game|
+        %tr.game
+          %td.label= abbreviations[game]
+          %td.update
+            %a{ :href => week[game][:update_url] }= week[game][:update]
+          %td.votes{ :class => winner == game ? 'winner' : '' }= week[:votes][game]
+          %td.response
+            %a{:href => week[game][:response_url] }= week[game][:response]
