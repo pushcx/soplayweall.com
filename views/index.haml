@@ -21,6 +21,8 @@
     to take a copy of rules, find some friends, and build games. And please,
     tell us about it so we can link to you here.
 
+  = render 'rss-ad'
+
 #rules
   %a{ :name => 'rules' }
   %h2 Rules
@@ -126,3 +128,5 @@
           %td.votes{ :class => winner == game ? 'winner' : '' }= week[:votes][game]
           %td.response
             %a{:href => week[game][:response_url] }= week[game][:response]
+
+= render 'rss-ad'
