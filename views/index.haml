@@ -105,7 +105,7 @@
     %thead
     %tbody
     - abbreviations = { :allabrilyn => 'Ab', :fantasyadventure => 'FA', :oaqn => 'o' }
-    - YAML::load_file('data.yaml').each do |week|
+    - YAML::load_file('progress.yaml').each do |week|
       - winner = week[:votes].sort { |a, b| a[1] <=> b[1] }.last.first
       %tr.weekdivider
         %td{ :colspan => 7 }
