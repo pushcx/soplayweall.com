@@ -73,3 +73,38 @@
   %h2 Progress
 
 
+%table
+  %thead
+    %tr
+      %th Week
+      %th Topic
+      %th Hours
+      %th Update
+      %th Votes
+      %th Response
+  %thead
+  %tbody
+  - YAML::load_file('data.yaml').each do |week|
+    - winner = week[:votes].sort { |a, b| a[1] <=> b[1] }.last.first
+    %tr{ :class => 'week' }
+      %td{ :rowspan => 3 }= week[:week]
+      %td{ :rowspan => 3 }
+        %a{ :href => week[:poll_url] }= week[:topic]
+      %td{ :rowspan => 3 }= week[:hours]
+      %td
+        %a{ :href => week[:allabrilyn][:update_url] }= week[:allabrilyn][:update]
+      %td{ :class => winner == :allabrilyn ? 'winner' : '' }= week[:votes][:allabrilyn]
+      %td
+        %a{:href => week[:allabrilyn][:response_url] }= week[:allabrilyn][:response]
+    %tr
+      %td
+        %a{ :href => week[:fantasyadventure][:update_url] }= week[:fantasyadventure][:update]
+      %td{ :class => winner == :fantasyadventure ? 'winner' : '' }= week[:votes][:fantasyadventure]
+      %td
+        %a{ :href => week[:fantasyadventure][:response_url] }= week[:fantasyadventure][:response]
+    %tr
+      %td
+        %a{ :href => week[:oaqn][:update_url] }= week[:oaqn][:update]
+      %td{ :class => winner == :oaqn ? 'winner' : '' }= week[:votes][:oaqn]
+      %td
+        %a{ :href => week[:oaqn][:response_url] }= week[:oaqn][:response]
