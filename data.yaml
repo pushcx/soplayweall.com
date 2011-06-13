@@ -71,33 +71,33 @@
     :update_url: http://blog.oaqn.com/2011/week-2-pretty-shameless
     :response: Funding and Forms
     :response_url: http://push.cx/2011/spwa-week-2-funding-and-forms
- -
-   :week: 3
-   :topic: Core Game Objects
-   :poll_url: 
-   :hours: 3
-   :votes:
-     :allabrilyn: 0
-     :fantasyadventure: 0
-     :oaqn: 0
-   :allabrilyn:
-     :update: 
-     :update_url: 
-     :response: 
-     :response_url: 
-     :votes: 
-   :fantasyadventure:
-     :update: 
-     :update_url: 
-     :response: 
-     :response_url: 
-     :votes: 
-   :oaqn:
-     :update: 
-     :update_url: 
-     :response: 
-     :response_url: 
-     :votes: 
+-
+  :week: 3
+  :topic: Core Game Objects
+  :poll_url: 
+  :hours: 3
+  :votes:
+    :allabrilyn: 0
+    :fantasyadventure: 0
+    :oaqn: 0
+  :allabrilyn:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
+    :votes: 
+  :fantasyadventure:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
+    :votes: 
+  :oaqn:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
+    :votes: 
 # -
 #   :week: 
 #   :topic: 
