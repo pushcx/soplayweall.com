@@ -44,10 +44,10 @@ feed:
 
 # Group stylesheets and javascript files into a single
 # bundle.
-bundles:
-  javascripts:
-    base:
-      - base.js
-  stylesheets:
-    base:
-      - base.css
+#bundles:
+#  javascripts:
+#    base:
+#      - base.js
+#  stylesheets:
+#    base:
+#      - base.css
