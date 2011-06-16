@@ -78,26 +78,23 @@
   :hours: 3
   :votes:
     :allabrilyn: 0
-    :fantasyadventure: 0
-    :oaqn: 0
+    :fantasyadventure: 3
+    :oaqn: 8
   :allabrilyn:
     :update: Controlling Controllers
     :update_url: http://blog.allabrilyn.com/content/controlling-controllers
     :response: 
     :response_url: 
-    :votes: 0
   :fantasyadventure:
     :update: Dire Bears and mysteries – oh my!
     :update_url: http://blog.fantasyadventuregame.com/2011/06/12/dire-bears-and-mysteries-oh-my/
     :response: 
     :response_url: 
-    :votes: 3
   :oaqn:
     :update: Mapping the World
     :update_url: http://blog.oaqn.com/2011/mapping-the-world
     :response: 
     :response_url: 
-    :votes: 5
 # -
 #   :week: 
 #   :topic: 
@@ -112,16 +109,13 @@
 #     :update_url: 
 #     :response: 
 #     :response_url: 
-#     :votes: 
 #   :fantasyadventure:
 #     :update: 
 #     :update_url: 
 #     :response: 
 #     :response_url: 
-#     :votes: 
 #   :oaqn:
 #     :update: 
 #     :update_url: 
 #     :response: 
 #     :response_url: 
-#     :votes: 
