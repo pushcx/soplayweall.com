@@ -79,7 +79,7 @@
   :votes:
     :allabrilyn: 0
     :fantasyadventure: 3
-    :oaqn: 8
+    :oaqn: 5
   :allabrilyn:
     :update: Controlling Controllers
     :update_url: http://blog.allabrilyn.com/content/controlling-controllers
@@ -95,7 +95,30 @@
     :update_url: http://blog.oaqn.com/2011/mapping-the-world
     :response: 
     :response_url: 
-# -
+-
+  :week: 4
+  :topic: Game World
+  :poll_url: 
+  :hours: 3
+  :votes:
+    :allabrilyn: 0
+    :fantasyadventure: 0
+    :oaqn: 0
+  :allabrilyn:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
+  :fantasyadventure:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
+  :oaqn:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: # -
 #   :week: 
 #   :topic: 
 #   :poll_url: 
