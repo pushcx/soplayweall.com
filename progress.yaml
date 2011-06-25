@@ -102,23 +102,48 @@
   :hours: 3
   :votes:
     :allabrilyn: 0
-    :fantasyadventure: 0
-    :oaqn: 0
+    :fantasyadventure: 5
+    :oaqn: 4
   :allabrilyn:
     :update: Database Event!
     :update_url: http://blog.allabrilyn.com/content/database-event
     :response: 
     :response_url: 
   :fantasyadventure:
-    :update: Never trust a magician to do the army’s job
+    :update: Never trust a magician to do the army's job
     :update_url: http://blog.fantasyadventuregame.com/2011/06/22/never-trust-a-magician-to-do-the-armys-job/
-    :response: 
-    :response_url: 
+    :response: On iterating
+    :response_url: http://blog.fantasyadventuregame.com/2011/06/25/on-iterating/
   :oaqn:
     :update: A Whole New World
     :update_url: http://blog.oaqn.com/2011/a-whole-new-world
+    :response: Small Steps
+    :response_url: http://push.cx/2011/small-steps
+-
+  :week: 5
+  :topic: Game World
+  :poll_url: 
+  :hours: 2
+  :votes:
+    :allabrilyn: 0
+    :fantasyadventure: 0
+    :oaqn: 0
+  :allabrilyn:
+    :update: 
+    :update_url: 
     :response: 
-    :response_url:
+    :response_url: 
+  :fantasyadventure:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
+  :oaqn:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
+
 # -
 #   :week: 
 #   :topic: 
