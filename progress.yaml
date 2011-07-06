@@ -125,22 +125,46 @@
   :poll_url: http://community.bbgamezone.net/projects/so-play-we-all-week-5-game-world/
   :hours: 2
   :votes:
+    :allabrilyn: 5
+    :fantasyadventure: 1
+    :oaqn: 2
+  :allabrilyn:
+    :update: Deity of Development
+    :update_url: http://blog.allabrilyn.com/content/deity-development
+    :response: ORB VI
+    :response_url: http://blog.allabrilyn.com/content/orb-vi
+  :fantasyadventure:
+    :update: Anyone have a Roland?
+    :update_url: http://blog.fantasyadventuregame.com/2011/06/25/anyone-have-a-roland/
+    :response: Jim won something!
+    :response_url: http://blog.fantasyadventuregame.com/2011/07/02/jim-won-something/
+  :oaqn:
+    :update: Hangups
+    :update_url: http://blog.oaqn.com/2011/hangups
+    :response: Two Turnarounds
+    :response_url: http://push.cx/2011/two-turnarounds
+-
+  :week: 6
+  :topic: Open Topic
+  :poll_url: 
+  :hours: 2
+  :votes:
     :allabrilyn: 0
     :fantasyadventure: 0
     :oaqn: 0
   :allabrilyn:
-    :update: Deity of Development
-    :update_url: http://blog.allabrilyn.com/content/deity-development
+    :update: Class Session
+    :update_url: http://blog.allabrilyn.com/content/class-session
     :response: 
     :response_url: 
   :fantasyadventure:
-    :update: Anyone have a Roland?
-    :update_url: http://blog.fantasyadventuregame.com/2011/06/25/anyone-have-a-roland/
+    :update: A spring bubbles up!
+    :update_url: http://blog.fantasyadventuregame.com/2011/07/06/a-spring-bubbles-up/
     :response: 
     :response_url: 
   :oaqn:
-    :update: Hangups
-    :update_url: http://blog.oaqn.com/2011/hangups
+    :update: The Plumbing Works
+    :update_url: http://blog.oaqn.com/2011/the-plumbing-works
     :response: 
     :response_url: 
 
