@@ -150,8 +150,8 @@
   :hours: 2
   :votes:
     :allabrilyn: 0
-    :fantasyadventure: 0
-    :oaqn: 0
+    :fantasyadventure: 2
+    :oaqn: 2
   :allabrilyn:
     :update: Class Session
     :update_url: http://blog.allabrilyn.com/content/class-session
@@ -160,13 +160,13 @@
   :fantasyadventure:
     :update: A spring bubbles up!
     :update_url: http://blog.fantasyadventuregame.com/2011/07/06/a-spring-bubbles-up/
-    :response: 
-    :response_url: 
+    :response: The first tie (and guess who it was?)
+    :response_url: http://blog.fantasyadventuregame.com/2011/07/08/the-first-tie-and-guess-who-it-was/
   :oaqn:
     :update: The Plumbing Works
     :update_url: http://blog.oaqn.com/2011/the-plumbing-works
-    :response: 
-    :response_url: 
+    :response: ORV VII
+    :response_url: http://blog.allabrilyn.com/content/orv-vii
 
 # -
 #   :week: 
