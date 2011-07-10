@@ -111,6 +111,7 @@
     %tbody
     - abbreviations = { :allabrilyn => 'Ab', :fantasyadventure => 'FA', :oaqn => 'o' }
     - YAML::load_file('progress.yaml').each do |week|
+      - winning_vote_count = week[:votes].sort { |a, b| a[1] <=> b[1] }.last.last
       - winner = week[:votes].sort { |a, b| a[1] <=> b[1] }.last.first
       - winner = nil if week[:votes][winner].nil? or week[:votes][winner] == 0
       %tr.weekdivider
@@ -125,7 +126,7 @@
           %td.label= abbreviations[game]
           %td.update
             %a{ :href => week[game][:update_url] }= week[game][:update]
-          %td.votes{ :class => winner == game ? 'winner' : '' }= week[:votes][game]
+          %td.votes{ :class => !winner.nil? && week[:votes][game] == winning_vote_count ? 'winner' : '' }= week[:votes][game]
           %td.response
             %a{:href => week[game][:response_url] }= week[game][:response]
 

@@ -146,7 +146,7 @@
 -
   :week: 6
   :topic: Open Topic
-  :poll_url: 
+  :poll_url: http://community.bbgamezone.net/projects/so-play-we-all-week-6-open-topic/
   :hours: 2
   :votes:
     :allabrilyn: 0
@@ -167,6 +167,30 @@
     :update_url: http://blog.oaqn.com/2011/the-plumbing-works
     :response: Rewriting My Competitors
     :response_url: http://push.cx/2011/rewriting-my-competitors
+-
+  :week: 7
+  :topic: Content Generation
+  :poll_url: 
+  :hours: 4
+  :votes:
+    :allabrilyn: 0
+    :fantasyadventure: 0
+    :oaqn: 0
+  :allabrilyn:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
+  :fantasyadventure:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
+  :oaqn:
+    :update: 
+    :update_url: 
+    :response: 
+    :response_url: 
 
 # -
 #   :week: 
