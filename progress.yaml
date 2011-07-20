@@ -191,6 +191,30 @@
     :update_url: http://blog.oaqn.com/2011/one-step-forward
     :response: Keeping Jim Busy
     :response_url: http://push.cx/2011/keeping-jim-busy
+-
+  :week: 8
+  :topic: Open topic
+  :poll_url: http://community.bbgamezone.net/projects/so-play-we-all-week-8-open-topic
+  :hours: 3
+  :votes:
+    :allabrilyn: 0
+    :fantasyadventure: 0
+    :oaqn: 0
+  :allabrilyn:
+    :update: No Rest For The Wicked
+    :update_url: http://blog.allabrilyn.com/content/no-rest-wicked
+    :response: 
+    :response_url: 
+  :fantasyadventure:
+    :update: Bar fights and wenches
+    :update_url: http://blog.fantasyadventuregame.com/2011/07/20/bar-fights-and-wenches/
+    :response: 
+    :response_url: 
+  :oaqn:
+    :update: Lazy Updates
+    :update_url: http://blog.oaqn.com/2011/lazy-updates
+    :response: 
+    :response_url: 
 
 # -
 #   :week: 
