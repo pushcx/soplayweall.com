@@ -197,24 +197,49 @@
   :poll_url: http://community.bbgamezone.net/projects/so-play-we-all-week-8-open-topic
   :hours: 3
   :votes:
-    :allabrilyn: 0
-    :fantasyadventure: 0
-    :oaqn: 0
+    :allabrilyn: 1
+    :fantasyadventure: 3
+    :oaqn: 1
   :allabrilyn:
     :update: No Rest For The Wicked
     :update_url: http://blog.allabrilyn.com/content/no-rest-wicked
-    :response: 
-    :response_url: 
+    :response: ORB IX
+    :response_url: http://blog.allabrilyn.com/content/orb-ix
   :fantasyadventure:
     :update: Bar fights and wenches
     :update_url: http://blog.fantasyadventuregame.com/2011/07/20/bar-fights-and-wenches/
-    :response: 
-    :response_url: 
+    :response: No surprise, but I won again
+    :response_url: http://blog.fantasyadventuregame.com/2011/07/23/no-surprise-but-i-won-again/
   :oaqn:
     :update: Lazy Updates
     :update_url: http://blog.oaqn.com/2011/lazy-updates
     :response: 
     :response_url: 
+-
+  :week: 10
+  :topic: Open topic
+  :poll_url: 
+  :hours: 2
+  :votes:
+    :allabrilyn: 0
+    :fantasyadventure: 0
+    :oaqn: 0
+  :allabrilyn:
+    :update: Presenting
+    :update_url: http://blog.allabrilyn.com/content/presenting
+    :response: 
+    :response_url: 
+  :fantasyadventure:
+    :update: In which Luke gets writer’s block
+    :update_url: http://blog.fantasyadventuregame.com/2011/08/03/in-which-luke-gets-writers-block/
+    :response: 
+    :response_url: 
+  :oaqn:
+    :update: 
+    :update_url:
+    :response: 
+    :response_url:
+
 
 # -
 #   :week: 
