@@ -218,28 +218,51 @@
 -
   :week: 10
   :topic: Open topic
-  :poll_url: 
+  :poll_url: http://community.bbgamezone.net/projects/so-play-we-all-week-10-open-topic
   :hours: 2
   :votes:
-    :allabrilyn: 0
+    :allabrilyn: 1
     :fantasyadventure: 0
     :oaqn: 0
   :allabrilyn:
     :update: Presenting
     :update_url: http://blog.allabrilyn.com/content/presenting
+    :response: Innocence Lost
+    :response_url: http://blog.allabrilyn.com/content/innocence-lost
+  :fantasyadventure:
+    :update: In which Luke gets writer's block
+    :update_url: http://blog.fantasyadventuregame.com/2011/08/03/in-which-luke-gets-writers-block/
+    :response: Jim won – and he deserved it.
+    :response_url: http://blog.fantasyadventuregame.com/2011/08/06/jim-won-and-he-deserved-it/
+  :oaqn:
+    :update: 
+    :update_url: 
+    :response: Breakdowns
+    :response_url: http://push.cx/2011/breakdowns
+-
+  :week: 11
+  :topic: Open topic
+  :poll_url: http://community.bbgamezone.net/projects/so-play-we-all-week-11-open-topic
+  :hours: 3
+  :votes:
+    :allabrilyn: 0
+    :fantasyadventure: 0
+    :oaqn: 0
+  :allabrilyn:
+    :update: Innocent Lost
+    :update_url: http://blog.allabrilyn.com/content/innocence-lost
     :response: 
     :response_url: 
   :fantasyadventure:
-    :update: In which Luke gets writer’s block
-    :update_url: http://blog.fantasyadventuregame.com/2011/08/03/in-which-luke-gets-writers-block/
+    :update: git checkout -b sim_card_game
+    :update_url: http://blog.fantasyadventuregame.com/2011/08/10/git-checkout-b-sim_card_game/
     :response: 
     :response_url: 
   :oaqn:
-    :update: 
-    :update_url:
+    :update: Laziness Pays Off
+    :update_url: http://blog.oaqn.com/2011/laziness-pays-off
     :response: 
-    :response_url:
-
+    :response_url: 
 
 # -
 #   :week: 
