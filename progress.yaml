@@ -245,9 +245,9 @@
   :poll_url: http://community.bbgamezone.net/projects/so-play-we-all-week-11-open-topic
   :hours: 2
   :votes:
-    :allabrilyn: 0
+    :allabrilyn: 1
     :fantasyadventure: 0
-    :oaqn: 0
+    :oaqn: 6
   :allabrilyn:
     :update: Innocent Lost
     :update_url: http://blog.allabrilyn.com/content/innocence-lost
@@ -263,6 +263,30 @@
     :update_url: http://blog.oaqn.com/2011/laziness-pays-off
     :response: Timing
     :response_url: http://push.cx/2011/timing
+-
+  :week: 12
+  :topic: Open topic
+  :poll_url: http://community.bbgamezone.net/projects/so-play-we-all-week-11-open-topic
+  :hours: 2
+  :votes:
+    :allabrilyn: 0
+    :fantasyadventure: 0
+    :oaqn: 0
+  :allabrilyn:
+    :update: More Presenting
+    :update_url: http://blog.allabrilyn.com/content/more-presenting
+    :response: 
+    :response_url: 
+  :fantasyadventure:
+    :update: No adventures – but there are some cards.
+    :update_url: http://blog.fantasyadventuregame.com/2011/08/17/no-adventures-but-there-are-some-cards/
+    :response: 
+    :response_url: 
+  :oaqn:
+    :update: Queuing Up Travel
+    :update_url: http://blog.oaqn.com/2011/queuing-up-travel
+    :response: 
+    :response_url: 
 
 # -
 #   :week: 
